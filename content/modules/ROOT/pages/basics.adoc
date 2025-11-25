@@ -84,7 +84,7 @@ Before starting the dev mode, you need to *append* the following configuration t
 
 [source, properties,role="copypaste",subs="attributes"]
 ----
-%dev.quarkus.dev-ui.hosts={USER_ID}-quarkus-workshop-index-webpage.{ROUTE_SUBDOMAIN}
+%dev.quarkus.dev-ui.hosts=kube-admin-quarkus-workshop-index-webpage.{ROUTE_SUBDOMAIN}
 ----
 
 Note that the changes will be automatially saved in the IDE.
