@@ -17,8 +17,8 @@ asciidoc:
     ssh_command: ssh someone@example.com
     ROUTE_SUBDOMAIN: example.com
     MASTER_URL: api.example.com
-    CONSOLE_URL: console-openshift-console.example.com
-    DS_URL: devspaces-openshift-devspaces.example.com
+    CONSOLE_URL: https://console-openshift-console.example.com
+    DS_URL: https://devspaces-openshift-devspaces.example.com
     USER_ID: developer
     DS_USER_NAME: developer
     DS_USER_PASSWORD: quarkus
